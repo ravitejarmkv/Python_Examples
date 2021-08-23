@@ -8,7 +8,7 @@ print(text[::-1])
 
 print("Method 2")
 
-n = len(text)-1
+n = len(text) - 1
 s = []
 for i in text:
     s.append(text[n])
@@ -16,6 +16,8 @@ for i in text:
 print("".join(s))
 
 print("Method 3")
+
+
 def reverse_str(text):
     str_ing = ''
     for i in text:
